@@ -1,4 +1,4 @@
-package OOPS;
+package classobject;
 class Car{
     String brand;
     String model;
@@ -7,12 +7,16 @@ class Car{
         this.brand=brand;
         this.model=model;
         this.price=price;
+
+    }
+    public void display(){
         System.out.println("Brand: "+brand + " Model: "+model+ " Price: " + price);
     }
 }
-public class Main {
+public class Vehical {
     public static void main(String[] args){
         Car c1=new Car("BMW","M5","1 lakh");
+        c1.display();
 
     }
 }

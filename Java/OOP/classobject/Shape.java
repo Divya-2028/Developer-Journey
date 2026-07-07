@@ -1,4 +1,4 @@
-package OOPS;
+package classobject;
 class Rectangle{
     int length;
     int width;
@@ -24,7 +24,7 @@ class Circle{
     }
 }
 public class Shape {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Rectangle r1=new Rectangle(3,5);
         Circle c1=new Circle(5);
         c1.area();

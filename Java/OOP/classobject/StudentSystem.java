@@ -1,4 +1,4 @@
-package OOPS;
+package classobject;
 
 class Student{
     String name;
@@ -30,8 +30,8 @@ class Student{
         System.out.printf("Percentage: %.2f%n",percentage());
     }
 }
-public class OOPS {
-    static void main(String[] args) {
+public class StudentSystem {
+    public static void main(String[] args) {
         Student s1=new Student("HEllo",10,"CSE",69,54,98);
         s1.resultDisplay();
     }
