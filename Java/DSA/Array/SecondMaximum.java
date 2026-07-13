@@ -1,4 +1,3 @@
-package Array;
 public class SecondMaximum {
     public static void main(String[] args) {
         int arr[]={19,10,3,4,53};

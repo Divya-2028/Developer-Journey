@@ -1,4 +1,3 @@
-package Array;
 public class ReturnSumOfPositiveAndNegativeNumber {
     public static void main(String[] args) {
         int arr[]={2,-4,3,-4,-5,6,7};
